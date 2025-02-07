@@ -1,0 +1,30 @@
+site_name: "Sui Rust Blockchain Course"
+theme:
+  name: "material"
+nav:
+  - Home: index.md
+  - Modules:
+      - "Module 1: Rust & Move Basics": modules/module-1.md
+      - "Module 2: JVM & GraalVM": modules/module-2.md
+      - "Module 3: Sui SDKs Without Node.js": modules/module-3.md
+      - "Module 4: Move Smart Contracts with Rust": modules/module-4.md
+      - "Module 5: Rust-Based APIs": modules/module-5.md
+      - "Module 6: WASM-Based Frontend": modules/module-6.md
+  - Quizzes:
+      - "Module 1.1 Quiz": quizzes/module-1.1-quiz.md
+      - "Module 1.2 Quiz": quizzes/module-1.2-quiz.md
+      - "Module 2.1 Quiz": quizzes/module-2.1-quiz.md
+      - "Module 3.1 Quiz": quizzes/module-3.1-quiz.md
+      - "Module 4.1 Quiz": quizzes/module-4.1-quiz.md
+      - "Module 5.1 Quiz": quizzes/module-5.1-quiz.md
+      - "Module 6.1 Quiz": quizzes/module-6.1-quiz.md
+
+  - Solutions:
+      - "Module 1 Solutions": solutions/module-1-solutions.md
+      - "Module 2 Solutions": solutions/module-2-solutions.md
+      - "Module 1 Solutions": solutions/module-1-solutions.md
+      - "Module 2 Solutions": solutions/module-2-solutions.md
+      - "Module 1 Solutions": solutions/module-1-solutions.md
+      - "Module 2 Solutions": solutions/module-2-solutions.md
+
+# THIS NEEDS TO BE CORRECTED ONCE I FIGURE OUT HOW I WANT TO STRUCTURE THE REPO
