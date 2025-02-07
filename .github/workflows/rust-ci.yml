@@ -1,0 +1,39 @@
+name: Rust & Move CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Install Rust Toolchain
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Install Sui CLI
+        run: |
+          curl -fsSL https://install.sui.io | bash
+          sui --version
+
+      - name: Install Dependencies
+        run: |
+          cargo install --force sui-sdk
+          cargo fetch
+
+      - name: Run Move Contract Tests
+        run: sui move test
+
+      - name: Run Rust API Tests
+        run: cargo test
+
+      - name: Check Rust Formatting
+        run: cargo fmt --check
+
+      - name: Run Clippy Linter
+        run: cargo clippy -- -D warnings

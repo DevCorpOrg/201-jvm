@@ -34,6 +34,16 @@ By the end of this course, you will:
 │── CONTRIBUTING.md        # Guidelines for Contributions
 │── LICENSE                # Open-source license
 │── .github/               # GitHub Actions & Issue Templates
+│   ├── workflows/
+│   │   ├── rust-ci.yml    # Automated testing for Rust & Move
+│   ├── ISSUE_TEMPLATE/
+│   │   ├── bug_report.md  # Bug reporting template
+│   │   ├── feature_request.md  # Feature request template
+│   ├── DISCUSSIONS.md      # Guidelines for GitHub Discussions
+│── docs/                  # GitHub Pages Documentation
+│   ├── index.md           # Main landing page for GitHub Pages
+│   ├── setup.md           # Environment setup guide
+│   ├── modules/           # Structured modules for web navigation
 ```
 
 ---
@@ -105,4 +115,3 @@ By the end of this course, you will:
 3. [Move Programming Language](https://move-language.github.io/move/)
 4. [GraalVM Polyglot Docs](https://www.graalvm.org/reference-manual/js/)
 5. [Rust for Blockchain Developers](https://github.com/rust-blockchain)
-
