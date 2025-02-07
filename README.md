@@ -29,7 +29,6 @@ By the end of this course, you will:
 │── Module-5/              # Rust-Based Sui APIs (Axum)
 │── Module-6/              # Yew for Sui dApps (No React)
 │── Final-Project/         # Full Sui Rust dApp Deployment
-│── quizzes/               # Interactive Quizzes
 │── solutions/             # Code Solutions for Exercises
 │── CONTRIBUTING.md        # Guidelines for Contributions
 │── LICENSE                # Open-source license
